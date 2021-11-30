@@ -18,8 +18,9 @@ class InputTodo extends Component {
       this.setState({
         title: '',
       });
+    } else {
+      alert('Please write item');
     }
-    alert('Please write item');
   };
 
   render() {
