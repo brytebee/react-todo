@@ -3,7 +3,8 @@ import React from 'react';
 const NotMatch = () => {
   return (
     <div>
-      <h3>No match for this page</h3>
+      <h1>Something went wrong</h1>
+      <p>No match for this page</p>
     </div>
   );
 };
