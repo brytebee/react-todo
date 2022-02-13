@@ -7,6 +7,7 @@ class TodoItem extends React.Component {
   };
 
   handleEditing = () => {
+    console.log('edit mode activated');
     this.setState({
       editing: true,
     });
@@ -24,10 +25,10 @@ class TodoItem extends React.Component {
 
     if (this.state.editing) {
       viewMode.display = 'none';
-      editMode.display = 'block';
+      // editMode.display = 'block';
     } else {
       editMode.display = 'none';
-      viewMode.display = 'block';
+      // viewMode.display = 'block';
     }
 
     const { completed, id, title } = this.props.todo;
@@ -41,7 +42,7 @@ class TodoItem extends React.Component {
 
     return (
       <li className={styles.item}>
-        <div onDoubleClick={this.handleEditing}>
+        <div onDoubleClick={this.handleEditing} style={viewMode}>
           {' '}
           <input
             type="checkbox"
