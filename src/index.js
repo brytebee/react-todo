@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //component file
-import TodoContainer from './components/TodoContainer';
-import './App.css';
+import TodoContainer from './functionBased/components/TodoContainer';
+import './functionBased/App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './pages/About';
 import NotMatch from './pages/NotMatch';
