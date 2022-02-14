@@ -18,6 +18,10 @@ class TodoItem extends React.Component {
     }
   };
 
+  componentWillUnmount() {
+    alert('Item Deleted!');
+  }
+
   render() {
     let viewMode = {};
     let editMode = {};

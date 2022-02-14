@@ -23,13 +23,16 @@ class TodoContainer extends React.Component {
   };
 
   delTodo = (id) => {
-    this.setState({
-      todos: [
-        ...this.state.todos.filter((todo) => {
-          return todo.id !== id;
-        }),
-      ],
-    });
+    const confirm = window.confirm('Are you sure?');
+    if (confirm) {
+      this.setState({
+        todos: [
+          ...this.state.todos.filter((todo) => {
+            return todo.id !== id;
+          }),
+        ],
+      });
+    }
   };
 
   addTodoItem = (title) => {
