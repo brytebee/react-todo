@@ -6,7 +6,7 @@ A simple todo list. The application is built with ReactJS and local storage.
 
 ## Screenshot
 
-![image](https://placeholder.kip)
+![image](https://user-images.githubusercontent.com/27709832/154051255-6d06148d-d50a-447e-89e4-32eb3cf8b06c.png)
 
 ## Live Demo
 
