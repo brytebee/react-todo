@@ -70,7 +70,7 @@ body {
 }
 
 .active-link {
-  color: orangered;
+  color: #ff4500;
   text-decoration: underline;
 }
 
