@@ -6,7 +6,11 @@ import InputTodo from './InputTodo';
 import { v4 as uuidv4 } from 'uuid';
 
 const TodoContainer = () => {
-  const [todos, setTodos] = useState([]);
+  const getInitialTodos = () => {
+    return JSON.parse(localStorage.getItem('todos')) || [];
+  };
+
+  const [todos, setTodos] = useState(getInitialTodos());
 
   const handleChange = (id) => {
     setTodos((prevState) =>
@@ -53,12 +57,12 @@ const TodoContainer = () => {
     );
   };
 
-  useEffect(() => {
-    if (localStorage.getItem('todos')) {
-      const temp = JSON.parse(localStorage.getItem('todos'));
-      setTodos(temp);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (localStorage.getItem('todos')) {
+  //     const temp = JSON.parse(localStorage.getItem('todos'));
+  //     setTodos(temp);
+  //   }
+  // }, []);
 
   useEffect(() => {
     localStorage.setItem('todos', JSON.stringify(todos));
