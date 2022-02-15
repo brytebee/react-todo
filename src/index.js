@@ -11,9 +11,9 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route exact path="/" element={<TodoContainer />}></Route>
+        <Route exact path="/" element={<TodoContainer />} />
         <Route path="/about" element={<About />}></Route>
-        <Route path="*" element={<NotMatch />}></Route>
+        <Route path="*" element={<NotMatch />} />
       </Routes>
     </Router>
   </React.StrictMode>,

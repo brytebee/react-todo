@@ -4,6 +4,7 @@ import Header from './Header';
 import './TodoContainer.css';
 import InputTodo from './InputTodo';
 import { v4 as uuidv4 } from 'uuid';
+import Navbar from './Navbar.jsx';
 
 const TodoContainer = () => {
   const getInitialTodos = () => {
@@ -72,6 +73,7 @@ const TodoContainer = () => {
     <>
       <div className="container">
         <div className="inner">
+          <Navbar />
           <Header />
           <InputTodo addTodoProps={addTodoItem} />
           <TodosList
