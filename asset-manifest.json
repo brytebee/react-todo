@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/brytebee/react-todo/static/css/main.e070e587.chunk.css",
+    "main.js": "/brytebee/react-todo/static/js/main.c0a5988d.chunk.js",
+    "main.js.map": "/brytebee/react-todo/static/js/main.c0a5988d.chunk.js.map",
+    "runtime-main.js": "/brytebee/react-todo/static/js/runtime-main.0665321e.js",
+    "runtime-main.js.map": "/brytebee/react-todo/static/js/runtime-main.0665321e.js.map",
+    "static/js/2.09c1f025.chunk.js": "/brytebee/react-todo/static/js/2.09c1f025.chunk.js",
+    "static/js/2.09c1f025.chunk.js.map": "/brytebee/react-todo/static/js/2.09c1f025.chunk.js.map",
+    "index.html": "/brytebee/react-todo/index.html",
+    "static/css/main.e070e587.chunk.css.map": "/brytebee/react-todo/static/css/main.e070e587.chunk.css.map",
+    "static/js/2.09c1f025.chunk.js.LICENSE.txt": "/brytebee/react-todo/static/js/2.09c1f025.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0665321e.js",
+    "static/js/2.09c1f025.chunk.js",
+    "static/css/main.e070e587.chunk.css",
+    "static/js/main.c0a5988d.chunk.js"
+  ]
+}
