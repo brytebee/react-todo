@@ -1,4 +1,4 @@
-# Math Magician
+# React TodoList App
 
 ## Description
 
