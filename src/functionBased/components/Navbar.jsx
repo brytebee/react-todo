@@ -8,12 +8,12 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      path: '/brytebee/react-todo',
+      path: '/react-todo/',
       text: 'Home',
     },
     {
       id: 2,
-      path: '/brytebee/react-todo/about',
+      path: '/react-todo/about',
       text: 'About',
     },
   ];

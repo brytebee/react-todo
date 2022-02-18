@@ -11,8 +11,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route exact path="/brytebee/react-todo" element={<TodoContainer />} />
-        <Route path="/brytebee/react-todo/about" element={<About />}></Route>
+        <Route exact path="/react-todo/" element={<TodoContainer />} />
+        <Route path="/react-todo/about" element={<About />}></Route>
         <Route path="*" element={<NotMatch />} />
       </Routes>
     </Router>
